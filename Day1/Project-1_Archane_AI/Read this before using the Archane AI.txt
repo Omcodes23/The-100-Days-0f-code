@@ -1,0 +1,11 @@
+----::The Instruction for using the Archane AI::----
+
+1.Make sure you are connected to the internet.
+2.Make sure you have python downloaded in your system.--->https://www.python.org
+3.Make sure that you have all the require packages downloded in your system.
+4.If you did not have any package you can simply install by running the below command in your CMD:--
+-->pip install package name. 
+5.Please run this on vs studio code(recommanded).
+6.For any query you can contact me on twitter.
+	
+	Twitter id : @VataliyaOm
