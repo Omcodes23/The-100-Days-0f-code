@@ -9,7 +9,8 @@ import sys
 engine =pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 # print(voices[0].id)
-engine.setProperty('voice',voices[0].id)
+voice = 0
+engine.setProperty('voice',voices[voice].id)
 
 
 def speak(audio):
@@ -24,14 +25,16 @@ def wishMe():
         speak("Good afternoon sir!")
     else:
         speak("Good evening sir!")
-    speak("I am archane , an ai , I was created by master Om vataliya , Please tell  me how may i help you , but sir , before giving any command , be sure that , your connected to internet , and , install all the requir pakages")
-    print("commands like: search avatar according to wikipedia\nOpen youtube\nopen stackoverflow\nopen google\nplay music\nopen vs code\netc...")
+    speak("I am archane , an ai , I was created by master Om vataliya , Please tell  me how may i help you , but sir , before giving any command , be sure that , your connected to internet , and , install all the requir pakages ,..")
+    print("commands like: \nsearch wikipedia\nOpen youtube\nopen stackoverflow\nopen google\nplay music\nopen vs coden\nchange voice \netc...")
     speak("you can try by saying any of these commands")
+    speak("commands like: \nsearch wikipedia\nOpen youtube\nopen stackoverflow\nopen google\nplay music\nopen vs code\nchange voice \netc...")
 def takeCommand():
     # it takes microphone input from the user and returns string output
 
     r = sr.Recognizer()
     with sr.Microphone() as source:
+        speak("i am Listening to You sir from now,")
         print("Listening...")
         r.pause_threshold = 1 #This pause_threshold is used for taking time after speech
         audio = r.listen(source)
@@ -86,4 +89,12 @@ if __name__ == "__main__":
         elif 'quit' in query:
             speak("exiting the archne ai")
             sys.exit()
-            
+
+        elif 'change the voice' in query:
+            speak("Which voice did you want male or female")
+            if 'male' in query:
+                voice = 0
+                speak("Voice changed to male")
+            elif 'female'  in query:
+                voice = 1            
+                speak("Voice changed to Female")
