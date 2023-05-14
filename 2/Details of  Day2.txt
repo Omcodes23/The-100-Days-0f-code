@@ -1,0 +1,4 @@
+---->> Day - 2 <<----
+This is a python program for creating folder and also multiple folder.
+This program is using the "OS" module and it's "MKDIR" attribute.
+Also uses the for loop for multiple creation

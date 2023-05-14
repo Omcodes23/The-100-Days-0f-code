@@ -1,0 +1,13 @@
+---->> Day - 34 <<----
+This is my final day of 100-days-of-code challange.
+This project is using the micropython.
+This is gesture controller using micropython.
+It uses Get and post method in python as server and client method.
+It uses python moduals like -os modual
+			    -pythauto gui
+			    -http.serverhttp.server 
+				-time
+				-urequests
+				-machine
+
+I made it with my friends.

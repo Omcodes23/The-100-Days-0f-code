@@ -1,0 +1,3 @@
+---->> Day - 3 <<---
+This is simple number guessing game using python randome module.
+It is simple game on terminal ny using bunch of if-else statment with while loop.
