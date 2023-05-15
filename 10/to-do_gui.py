@@ -30,3 +30,4 @@ task_listbox = tk.Listbox(root, width=50, selectmode=tk.SINGLE)
 task_listbox.pack(pady=10)
 
 root.mainloop()
+print(task_var)

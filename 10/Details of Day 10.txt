@@ -1,3 +1,9 @@
 ---->> Day - 10 <<----
 Today i make to-do list using the python Gui.
 I use tkinter modual for the add and delecting tasks.
+Here tk.END represents the next position after the value enter by the user.
+The curselection means the value which is selected by the user in the Listbox.
+Entry widget is for taking the user input.
+-- task_var.set("") -- >> This method is used to get value appropiatly like only in this example
+only string var values are permited but when you enter the number values it will explictly convert
+it into string using "" marks and None values are not permited. 
