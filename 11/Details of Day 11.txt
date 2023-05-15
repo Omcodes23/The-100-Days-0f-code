@@ -1,0 +1,10 @@
+---->> Day - 11 <<----
+Today i did some sorting query in the sql.
+Sorting query like - where
+                   - character
+                   - comparison condition
+                   - between condition
+                   - In condition
+                   - Like condition
+                   - Null condition
+                   - order by clause 
