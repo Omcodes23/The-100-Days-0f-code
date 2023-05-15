@@ -2,7 +2,7 @@
  This repo is for my 100 days of code challenge and it's projects.
  This repo contains all my work that i have done during 100_days_of_code Challenge.
  
-<h1 id="Dhruvi" align="center"> Web dev projects</h1>
+<h1 id="Dhruvi" align="center">100-days-of-code projects</h1>
 
 <div align="center">
 
@@ -25,7 +25,7 @@
 
 <h3 align="center">Om Vataliya</h3>
 <div align="center">
-<img width="100" src="[https://twitter.com/Om_codes/photo](https://pbs.twimg.com/profile_images/1657772603308937217/H78lhyxh_400x400.jpg)"/>
+<img width="100" src="https://avatars.githubusercontent.com/u/109670967?s=400&u=d635201f97cf9dff4b05ea187297fbee689bebdd&v=4"/>
 </div>
 
 <div align="center">
