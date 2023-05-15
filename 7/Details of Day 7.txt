@@ -1,0 +1,5 @@
+---->> Day - 7 <<----
+Today i do some pattern pratice.
+Here i manly use two for loop.
+        First for row 
+        Second for column
