@@ -26,8 +26,7 @@ add_task_button.pack(pady=5)
 delete_task_button = tk.Button(root, text="Delete Task", command=delete_task)
 delete_task_button.pack(pady=5)
 
-task_listbox = tk.Listbox(root, width=50, selectmode=tk.SINGLE)
+task_listbox = tk.Listbox(root, width=50)
 task_listbox.pack(pady=10)
 
 root.mainloop()
-print(task_var)
