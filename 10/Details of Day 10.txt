@@ -1,0 +1,3 @@
+---->> Day - 10 <<----
+Today i make to-do list using the python Gui.
+I use tkinter modual for the add and delecting tasks.

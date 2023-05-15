@@ -1,0 +1,7 @@
+---->> Day - 9 <<----
+Today i did some dml statment on sql.
+statemnts like -- insert
+               -- update
+               -- delete
+               -- merge
+This  statemnts are very esy to lean.❤😊

@@ -1,0 +1,4 @@
+---->> Day - 8 <<----
+Today i start sql using oracle 10g
+I have done some basic queries like create,alter,drop etc.
+I am now learning all ddl statments.
