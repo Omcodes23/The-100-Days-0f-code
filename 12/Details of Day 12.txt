@@ -1,0 +1,9 @@
+---->> Day - 12 <<----
+Today i did sql query using different constaints.
+Constraints like - NOT NULL
+                 - UNIQUE
+                 - PRIMARY KEY
+                 - FOREGIN KEY
+                 - CHECK
+Other things like adding or dropping Constraints 
+as well as enble or disabl constaints,cascading,viewing and many more.
