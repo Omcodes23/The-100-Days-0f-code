@@ -1,210 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>TODO List using the JavaScript</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
-  <body>
-    <div
-      class="container my-4"
-      style="padding:42px;background-color:blanchedalmond;border: 3px solid rgb(0, 242, 255);"
-    >
-      <h2 class="text-center">TO-DO List using JavaScript</h2>
+  <title>TODO List using the JavaScript</title>
+</head>
 
-      <div class="form-group">
-        <br />
-        <center>
-          <label
-            for="title"
-            style="font-size: 32px;font-family: 'Courier New', Courier, monospace;"
-            ><strong>Task to do</strong></label
-          >
-        </center>
-        <input
-          type="text"
-          class="form-control"
-          id="title"
-          aria-describedby="emailHelp"
-          style="border: 2px solid purple;height:40px;"
-          placeholder="Please enter the task"
-        />
-      </div>
+<body>
+  <div class="container my-4" style="padding:42px;background-color:blanchedalmond;border: 3px solid rgb(0, 242, 255);">
+    <h2 class="text-center">TO-DO List using JavaScript</h2>
 
-      <div class="form-group">
-        <center>
-          <label
-            for="description"
-            style="font-size: 32px;font-family: 'Courier New', Courier, monospace;"
-            ><strong>Description</strong></label
-          >
-        </center>
-        <textarea
-          class="form-control"
-          id="description"
-          style="border: 2px solid purple;"
-          rows="3"
-          placeholder="Please enter the discription of the task if requird"
-        ></textarea>
-      </div>
-
-      <div class="col-md-12">
-        <center>
-          <button
-            id="add"
-            class="btn btn-primary col-md-5"
-            style="padding:12px;font-size:20px"
-          >
-            Add to list
-          </button>
-          <button
-            id="clear"
-            class="btn btn-danger col-md-5"
-            style="padding:12px;font-size:20px"
-            onclick="clearStorage()"
-          >
-            Clear list
-          </button>
-        </center>
-      </div>
-
-      <div id="items" class="my-4">
-        <center>
-          <h2
-            style="font-size: 32px;font-family: 'Courier New', Courier, monospace;"
-          >
-            <strong>Your Items</strong>
-          </h2>
-        </center>
-        <hr />
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col" style="font-size:20px ;">SNo</th>
-              <th scope="col" style="font-size:20px ;">Item Title</th>
-              <th scope="col" style="font-size:20px ;">Item Description</th>
-              <th scope="col" style="font-size:20px ;">Actions</th>
-            </tr>
-          </thead>
-          <tbody id="tableBody">
-            <tr>
-              <th
-                scope="row"
-                style="font-size:18px ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
-              >
-                The number of Task
-              </th>
-              <td
-                style="font-size:18px ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
-              >
-                The title of the Task
-              </td>
-              <td
-                style="font-size:18px ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
-              >
-                The description of the Task
-              </td>
-              <td><button class="btn btn-sm btn-danger">Delete</button></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+    <div class="form-group">
+      <br />
+      <center>
+        <label for="title" style="font-size: 32px;font-family: 'Courier New', Courier, monospace;"><strong>Task to
+            do</strong></label>
+      </center>
+      <input type="text" class="form-control" id="title" aria-describedby="emailHelp"
+        style="border: 2px solid purple;height:40px;" placeholder="Please enter the task" />
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      // function for fetching and updating value
-      function getAndUpdate () {
-        console.log('Updating List...')
-        tit = document.getElementById('title').value
-        desc = document.getElementById('description').value
-        if (localStorage.getItem('itemsJson') == null) {
-          itemJsonArray = []
-          itemJsonArray.push([tit, desc])
-          localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
-        } else {
-          itemJsonArrayStr = localStorage.getItem('itemsJson')
-          itemJsonArray = JSON.parse(itemJsonArrayStr)
-          itemJsonArray.push([tit, desc])
-          localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
-        }
-        // updaing after fetching the function
-        update()
+    <div class="form-group">
+      <center>
+        <label for="description"
+          style="font-size: 32px;font-family: 'Courier New', Courier, monospace;"><strong>Description</strong></label>
+      </center>
+      <textarea class="form-control" id="description" style="border: 2px solid purple;" rows="3"
+        placeholder="Please enter the discription of the task if requird"></textarea>
+    </div>
+
+    <div class="col-md-12">
+      <center>
+        <button id="add" class="btn btn-primary col-md-5" style="padding:12px;font-size:20px">
+          Add to list
+        </button>
+        <button id="clear" class="btn btn-danger col-md-5" style="padding:12px;font-size:20px" onclick="clearStorage()">
+          Clear list
+        </button>
+      </center>
+    </div>
+
+    <div id="items" class="my-4">
+      <center>
+        <h2 style="font-size: 32px;font-family: 'Courier New', Courier, monospace;">
+          <strong>Your Items</strong>
+        </h2>
+      </center>
+      <hr />
+     <div style="display:flex;"> 
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col" style="font-size:20px ;">SNo</th>
+            <th scope="col" style="font-size:20px ;">Item Title</th>
+            <th scope="col" style="font-size:20px ;">Item Description</th>
+            <th scope="col" style="font-size:20px ;">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr>
+            <th scope="row"
+              style="font-size:18px ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+              The number of Task
+            </th>
+            <td style="font-size:18px ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+              The title of the Task
+            </td>
+            <td style="font-size:18px ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+              The description of the Task
+            </td>
+            <td><button class="btn btn-sm btn-danger">Delete</button></td>
+          </tr>
+     </div>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script>
+    // function for fetching and updating value
+    function getAndUpdate() {
+      console.log('Updating List...')
+      tit = document.getElementById('title').value
+      desc = document.getElementById('description').value
+      if (localStorage.getItem('itemsJson') == null) {
+        itemJsonArray = []
+        itemJsonArray.push([tit, desc])
+        localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
+      } else {
+        itemJsonArrayStr = localStorage.getItem('itemsJson')
+        itemJsonArray = JSON.parse(itemJsonArrayStr)
+        itemJsonArray.push([tit, desc])
+        localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
       }
-      //   update function
-      function update () {
-        if (localStorage.getItem('itemsJson') == null) {
-          itemJsonArray = []
-          localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
-        } else {
-          itemJsonArrayStr = localStorage.getItem('itemsJson')
-          itemJsonArray = JSON.parse(itemJsonArrayStr)
-        }
-        // Populate the table
-        let tableBody = document.getElementById('tableBody')
-        let str = ''
-        itemJsonArray.forEach((element, index) => {
-          str += `
+      // updaing after fetching the function
+      update()
+    }
+    //   update function
+    function update() {
+      if (localStorage.getItem('itemsJson') == null) {
+        itemJsonArray = []
+        localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
+      } else {
+        itemJsonArrayStr = localStorage.getItem('itemsJson')
+        itemJsonArray = JSON.parse(itemJsonArrayStr)
+      }
+      // Populate the table
+      let tableBody = document.getElementById('tableBody')
+      let str = ''
+      itemJsonArray.forEach((element, index) => {
+        str += `
                     <tr>
                     <th scope="row">${index + 1}</th>
                     <td>${element[0]}</td>
                     <td>${element[1]}</td> 
                     <td><button class="btn btn-sm btn-primary" onclick="deleted(${index})">Delete</button></td> 
                     </tr>`
-        })
-        tableBody.innerHTML = str
-      }
-      add = document.getElementById('add')
-      add.addEventListener('click', getAndUpdate)
+      })
+      tableBody.innerHTML = str
+    }
+    add = document.getElementById('add')
+    add.addEventListener('click', getAndUpdate)
+    update()
+    //   function for delete button
+    function deleted(itemIndex) {
+      console.log('Delete', itemIndex)
+      itemJsonArrayStr = localStorage.getItem('itemsJson')
+      itemJsonArray = JSON.parse(itemJsonArrayStr)
+      // Delete itemIndex element from the array
+      itemJsonArray.splice(itemIndex, 1)
+      localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
       update()
-      //   function for delete button
-      function deleted (itemIndex) {
-        console.log('Delete', itemIndex)
-        itemJsonArrayStr = localStorage.getItem('itemsJson')
-        itemJsonArray = JSON.parse(itemJsonArrayStr)
-        // Delete itemIndex element from the array
-        itemJsonArray.splice(itemIndex, 1)
-        localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
+    }
+    //   function for clearing the local storage and executing the clear list button
+    function clearStorage() {
+      if (confirm('Do you areally want to clear?')) {
+        console.log('Clearing the storage')
+        localStorage.clear()
         update()
       }
-      //   function for clearing the local storage and executing the clear list button
-      function clearStorage () {
-        if (confirm('Do you areally want to clear?')) {
-          console.log('Clearing the storage')
-          localStorage.clear()
-          update()
-        }
-      }
-    </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>
