@@ -25,12 +25,12 @@
 
 <h1 align="center">Om Vataliya</h1>
 <h3 align="center">Making errors since 2004</h3>
+<br>
 <div align="center">
 <img width="100" src="https://avatars.githubusercontent.com/u/109670967?s=400&u=d635201f97cf9dff4b05ea187297fbee689bebdd&v=4"/>
 </div>
-
+<br>
 <div align="center">
-<a href="https://github.com/Omcodes23"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://twitter.com/Om_codes"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
- <a href="https://linktr.eedes"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+ 
+<a href="https://linktr.ee/Omcodes"><img src="https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white"/></a>
 </div>
