@@ -1,0 +1,12 @@
+---->> Day - 13 Today <<----
+Today i did the sql single row functions performing some queries.
+I mainly used the functions like - case manipulation
+                                 - character-manipulation
+                                 - numeber functions
+                                 - Date functions
+                                 - Nesting functions
+                                 - nullif
+                                 - coalesec
+                                 - case expression
+                                 - decode function
+These queries are very easy and i have very much fun in learning.                                  

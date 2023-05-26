@@ -1,0 +1,12 @@
+---->> Day - 14 <<----
+Today i did some group function queries.
+group functions like - AVG
+                     - SUM
+                     - MIN
+                     - MAX
+                     - COUNT
+                     - COUNT DISTINCT
+                     etc.
+I also used other functions like DISTINCT and NULL.
+I used GROUP BY clause with single and multiple columns.
+And also Nesting functions etc. 

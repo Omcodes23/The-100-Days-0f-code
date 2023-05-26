@@ -1,0 +1,7 @@
+---->> Day - 20 <<----
+Today i did my first javascipt project.
+This is a simple digital clock with date.
+I used javascipt date and toLocalDatestring function to get the real time & date.
+Here i used three variables which are updated every seconds using the setinterval function.
+The only difficulty i faced was combing the toLocalDatestring function and making const variable.
+I really enjoyed making this project.

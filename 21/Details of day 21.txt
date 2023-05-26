@@ -1,0 +1,10 @@
+---->> Day - 21 <<----
+Today i made hte javascript to-do list.
+I used javascript localStorage to store the data.
+I refercend from code with harry javascript tutorial.
+This project constains many complex js functions like  -- splice
+      -- setItem
+      -- itemsJson
+      above functions i get refercend as i have to learn more about them.
+But this is very interesting and challenging project for me as javascript beginner.
+Special thanks to code with harry for giving me good understandig about js.
