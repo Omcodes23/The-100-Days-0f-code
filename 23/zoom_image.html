@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom image</title>
+</head>
+<body>
+    <script>
+        function fun1(){
+            var i = document.getElementById('img1')
+            i.style.height = "400px"
+            i.style.width = "400px"
+            i.style.border = "2px solid red"
+        }
+        function fun2(){ 
+            var j = document.getElementById('img2')
+            j.style.height = "400px"
+            j.style.width = "400px"
+            j.style.border = "2px solid red"
+        }
+        function fun3(){
+            var k = document.getElementById('img3')
+            k.style.height = "400px"
+            k.style.width = "400px"
+            k.style.border = "2px solid red"
+        }
+        function fun4(){
+            var l = document.getElementById('img4')
+            l.style.height = "400px"
+            l.style.width = "400px"
+            l.style.border = "2px solid red"
+        }
+        function fun5(){
+            var m = document.getElementById('img5')
+            m.style.height = "400px"
+            m.style.width = "400px"
+            m.style.border = "2px solid red"
+        }
+        function fun6(){
+            img1.style.height = "100px"
+            img1.style.width = "120px"
+        }
+        function fun7(){
+            img2.style.height = "100px"
+            img2.style.width = "120px"
+        }
+        function fun8(){
+            img3.style.height = "100px"
+            img3.style.width = "120px"
+        }
+        function fun9(){
+            img4.style.height = "100px"
+            img4.style.width = "120px"
+        }
+        function fun10(){
+            img5.style.height = "100px"
+            img5.style.width = "120px"
+        }
+       
+    </script>
+    <div align="center" style="background-color: darkgray;padding: 40px;margin-top: 0px;margin: 90px;border:4px solid black;">
+        <div style="background-color:blanchedalmond;margin:30px;padding: 8px;font-size: 32px;border:2px solid black">
+            <h2>Get cursor on the image to zoom it</h2>
+    </div>
+        <img id="img1" name="img1" src="shiva.jpg" onmouseover="fun1()" onmouseout="fun6()" onloadstart="fun1()" width="120px" height="100px"/>
+        <img id="img2" name="img2" src="mahesh.jpg" onmouseover="fun2()" onmouseout="fun7()" onloadstart="fun1()" width="120px" height="100px"/>
+        <img id="img3" name="img3" src="vishnu.jpg" onmouseover="fun3()" onmouseout="fun8()" onloadstart="fun1()" width="120px" height="100px"/>
+        <img id="img4" name="img4" src="brhama.jpg" onmouseover="fun4()" onmouseout="fun9()" onloadstart="fun1()" width="120px" height="100px"/>
+        <img id="img5" name="img5" src="maxresdefault.jpg" onmouseover="fun5()" onmouseout="fun10()" onloadstart="fun1()" width="120px" height="100px"/>
+    </div>
+</body>
+</html>

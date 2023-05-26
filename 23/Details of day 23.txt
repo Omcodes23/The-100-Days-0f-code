@@ -1,0 +1,6 @@
+---->> Day - 23 <<----
+Today i made the zoomin gimage effect using javascript.
+This effect is used in many websites like commerce and mapping websites.
+I used javascript to add the zoomin effect to the images.
+It simpley just making the width and height of the image big when mouse is over a image.
+and resize it when the mouse is out of the image.
