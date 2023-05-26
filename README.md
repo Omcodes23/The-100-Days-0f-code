@@ -12,7 +12,7 @@
 |     2.     | Python Number Game  | [-]()                                                             | [Number Game](https://github.com/Omcodes23/The-100-Days-0f-code/tree/b16af68d4acc45235836ea47a5a508cc4add6bdb/3) |
 |     3.     | Python To-do list          | [-]()                                                            | [To-do list](https://github.com/Omcodes23/The-100-Days-0f-code/tree/b16af68d4acc45235836ea47a5a508cc4add6bdb/10) |
 |     4.     | Digital clock			               | [Digital clock](https://javascipt-digital-clock.vercel.app/)								             | [Digital clock](https://github.com/Omcodes23/The-100-Days-0f-code/tree/d0af1c398a4f1d82b7f5932fe58e4732e5f852b7/20) |
-|     5.     |    		             | []()             						                                    | []() |
+|     5.     | javascript To--Do list   		             | [To-do list](https://javascript-to-do-list-gamma.vercel.app/)           | [To-do list](https://github.com/Omcodes23/The-100-Days-0f-code/tree/b90e079b803b6cdfa3736ecb0440bda54e4dab78/21) |
 |     6.     |   		               | []()                  					                                  | []() |
 |     7.     |  		               | []()         						                                        | []() |    
 |     8.     |  		               | []()     						                                            | []() |
@@ -21,9 +21,10 @@
 
 </div>
 
-<h1 align="center">Connect with me</h1>
 
-<h3 align="center">Om Vataliya</h3>
+
+<h1 align="center">Om Vataliya</h1>
+<h3 align="center">Making errors since 2004</h3>
 <div align="center">
 <img width="100" src="https://avatars.githubusercontent.com/u/109670967?s=400&u=d635201f97cf9dff4b05ea187297fbee689bebdd&v=4"/>
 </div>
@@ -31,4 +32,5 @@
 <div align="center">
 <a href="https://github.com/Omcodes23"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://twitter.com/Om_codes"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+ <a href="https://linktr.eedes"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 </div>
