@@ -1,0 +1,5 @@
+---->> Day - 22 <<----
+Today  i  did made the captcha using javascript.
+It mainly generate captcha usign the MAth modula and with character.
+I made two functions for generateing captcha and other for subnmiting and varifing captcah.
+It is easy one.
