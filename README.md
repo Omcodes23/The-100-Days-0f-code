@@ -12,7 +12,7 @@
 |     2.     | Python Number Game  | [-]()                                                             | [Number Game](https://github.com/Omcodes23/The-100-Days-0f-code/tree/b16af68d4acc45235836ea47a5a508cc4add6bdb/3) |
 |     3.     | Python To-do list          | [-]()                                                            | [To-do list](https://github.com/Omcodes23/The-100-Days-0f-code/tree/b16af68d4acc45235836ea47a5a508cc4add6bdb/10) |
 |     4.     | Digital clock			               | [Digital clock](https://javascipt-digital-clock.vercel.app/)								             | [Digital clock](https://github.com/Omcodes23/The-100-Days-0f-code/tree/d0af1c398a4f1d82b7f5932fe58e4732e5f852b7/20) |
-|     5.     | javascript To--Do list   		             | [To-do list](https://javascript-to-do-list-gamma.vercel.app/)           | [To-do list](https://github.com/Omcodes23/The-100-Days-0f-code/tree/b90e079b803b6cdfa3736ecb0440bda54e4dab78/21) |
+|     5.     | javascript To-Do list   		             | [To-do list](https://javascript-to-do-list-gamma.vercel.app/)           | [To-do list](https://github.com/Omcodes23/The-100-Days-0f-code/tree/b90e079b803b6cdfa3736ecb0440bda54e4dab78/21) |
 |     6.     |   		               | []()                  					                                  | []() |
 |     7.     |  		               | []()         						                                        | []() |    
 |     8.     |  		               | []()     						                                            | []() |
