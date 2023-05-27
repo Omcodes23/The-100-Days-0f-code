@@ -1,0 +1,8 @@
+---->> Day - 19 <<----
+Today i did the sql TCl commands.
+There only three commands like - COMMIT
+                               - SAVEPOINT
+                               - ROLLBACK
+They are only for controlling the flow of the stored data.
+And to make all  the changes parment And
+dicard all  the panding transactions.

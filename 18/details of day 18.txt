@@ -1,0 +1,19 @@
+---->> Day - 18 <<----
+Today i did the sql joins.
+Which is devided into two types - oracle joins
+                                - sql joins
+They both are almost similar effect but the only difference is their implementation.
+There are many types of joins.
+
+The type of oracle joins are - Equijoin
+                             - Nonequijoin
+                             - Outer join
+                             - Self join
+
+The types of sql joins are - Cross joins
+                           - Natural joins
+                           - Using clause
+                           - Full or two sided outer
+                             joins
+                           - Arbitrary join conditions
+                             for outer joins

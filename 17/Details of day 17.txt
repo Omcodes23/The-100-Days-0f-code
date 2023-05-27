@@ -1,0 +1,8 @@
+---->> Day - 17 <<----
+Today i did the sql subqueries.
+There are mainly two types of the subqueries like - single row subquery
+                                                  - Multi row subquery
+They are mainly used for fetching result using the another value which is not directly
+avaliable.
+Here if single row query it only allows single row operator.
+and if multi row query so it allows only multi row operatoers.
