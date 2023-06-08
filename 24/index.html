@@ -1,0 +1,350 @@
+<html>
+<head>
+<title>MY Registration form</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<style>
+body
+{
+background-image: linear-gradient(to right, #ff751a , #d14553 , #d11765);
+}
+.maindiv
+{
+margin:20vw;
+padding:5vw;
+background-color:white;
+border:3px solid rgb(4, 2, 2);
+
+}
+</style>
+<script>
+
+function fun2()
+{
+
+var f=fn.value
+var s=sn.value;
+var n=ph.value;
+var a=ad.value;
+var c=cy.value;
+var t=st.value;
+var m=ct.value;
+var z=zp.value;
+var u=usr.value;
+var p=pwd.value;
+var p2=pwd2.value;
+if(f=="")
+{
+fn.style.backgroundColor="";
+fn.style.border="2px solid red";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid grey";
+alert("Please Enter FirstName")
+return false;
+}
+
+else if(s=="")
+{
+sn.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid red";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid grey";
+alert("Please Enter SecondName")
+return false;
+}
+else if(n=="")
+{
+ph.style.backgroundColor="";
+ph.style.border="2px solid red";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid grey";
+alert("Please Enter Phone Number")
+return false;
+}
+else if(a=="")
+{
+ad.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid red";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid grey";
+alert("Please Enter Your Address")
+return false;
+}
+else if(c=="0")
+{
+cy.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid red";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid grey";
+alert("Please Enter your country")
+return false;
+}
+else if(t=="0")
+{
+st.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid red";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid grey";
+alert("Please Enter State")
+return false;
+}
+else if(m=="0")
+{
+ct.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid red";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid grey";
+alert("Please Enter Your city")
+return false;
+}
+else if(z=="")
+{
+zp.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid red";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid grey";
+alert("Please Enter Zip code")
+return false;
+}
+else if(u=="")
+{
+usr.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid red";
+pwd.style.border="2px solid grey";    
+pwd2.style.border="2px solid grey";
+alert("Please Enter Your Email Address")
+return false;
+}
+else if(p=="")
+{
+pwd.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid red";
+pwd2.style.border="2px solid grey";
+alert("Please Enter Your Password")
+return false;
+}
+else if(p2=="")
+{
+pwd2.style.backgroundColor="";
+fn.style.border="2px solid grey";
+sn.style.border="2px solid grey";
+ph.style.border="2px solid grey";
+ad.style.border="2px solid grey";
+cy.style.border="2px solid grey";
+st.style.border="2px solid grey";
+ct.style.border="2px solid grey";
+zp.style.border="2px solid grey";
+usr.style.border="2px solid grey";
+pwd.style.border="2px solid grey";
+pwd2.style.border="2px solid red";
+alert("Re enter Your Password")
+return false;
+}
+else
+{
+alert("Form is submited");
+return true;
+}
+}
+</script>
+</head>
+<body>
+<form id="form" name="form" method="GET" action="">
+<div class="maindiv">
+<h1 style="text-align:center;font-family:Comic Sans;font-size: 5vw;"><i><b style="color:#3b4f4b;">Registration form</b></i></h1><br>
+<div class="row g-3">
+<i><h5>Name:</h5></i>
+<div class="row">
+  <div class="col">
+    <input type="text" id="fn" name="fn" class="form-control" placeholder="First name" aria-label="First name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" id="sn" name="sn" placeholder="Last name" aria-label="Last name">
+  </div>
+</div><br>
+
+<i><h5>Gender:</h5></i>
+<div class="form-check">
+<input class="form-check-input" type="radio" name="flexRadioDefault" >
+<label class="form-check-label" for="flexRadioDefault1">
+Male
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="radio" name="flexRadioDefault" >
+<label class="form-check-label" for="flexRadioDefault1">
+Female
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+<label class="form-check-label" for="flexRadioDefault2">
+Other
+</label>
+</div><br>
+
+
+<i><h5>Phone:</h5></i>
+<div class="col-md-1">
+<input type="text" class="form-control" placeholder="" value="+91">
+</div>
+<div class="col-md-3">
+<input type="text" id="ph" name="ph" class="form-control" placeholder="" value="">
+</div>
+
+
+<div class="col-12">
+<label for="inputAddress" class="form-label"><i><h5>Address:</h5></i></label>
+<textarea class="form-control" rows="4" name="ad" id="ad" placeholder="Your address"></textarea>
+</div>
+<br>
+<div class="row">
+<div class="col-md-4">
+<label for="inputState" class="form-label"><i><h5>Country:</h5></i></label>
+<select id="cy" name="cy" class="form-select">
+<option value="0">Choose...</option>
+<option value="1">India</option>
+<option value="2">United States</option>
+<option value="3">Russia</option>
+<option value="4">United Kingdom</option>
+<option value="5">South Africa</option>
+</select>
+</div><br>
+<div class="col-md-3">
+<label for="inputState" class="form-label"><i><h5>State</h5></i></label>
+<select id="st" name="st" class="form-select">
+<option value="0">Choose...</option>
+<option>Gujarat</option>
+<option>Punjab</option>
+<option>Maharashta</option>
+<option>Uttarakhand</option>
+</select>
+</div><br>
+<div class="col-md-3">
+<label for="inputState" class="form-label"><i><h5>City:</h5></i></label>
+<select id="ct" name="ct" class="form-select">
+<option value="0">Choose...</option>
+<option>Vadodara</option>
+<option>London</option>
+<option>Paris</option>
+<option>Moscow</option>
+<option>New York</option>
+<option>Dubai</option>
+</select>
+</div><br>
+<div class="col-md-2">
+<label for="inputZip" class="form-label"><i><h5>Zip:</h5></i></label>
+<input type="text" id="zp" name="zp" class="form-control" >
+</div>
+</div><i><h5>Email address:</h5></i>
+<div class="col-md-10">
+<input type="email" class="form-control" id="usr" name="usr">
+<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+</div>
+<i><h5>Password:</h5></i>
+<div class="col-md-10">
+<input type="password" class="form-control" id="pwd" name="pwd">
+<div id="passwordHelpBlock" class="form-text">
+  Your password must be 8-20 characters long, contain one capital letters and number.
+</div>
+</div>
+<i><h5>Re-type your Password:</h5></i>
+<div class="col-md-10">
+<input type="password" class="form-control" id="pwd2" name="pwd2">
+<div id="passwordHelpBlock" class="form-text">
+It must be same as above.
+</div>
+</div>
+
+<div class="d-grid gap-2 col-6 mx-auto">
+  <input  class="btn btn-primary" onclick="return fun2();" id="btn" name="btn"
+  type="submit" value="Sign In" />
+  </div>
+</div>
+</form>
+</body>
+</html>
+
+

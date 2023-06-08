@@ -1,0 +1,7 @@
+---->> Day - 24 <<----
+Today i bulid simple Registration form using html,css and javascript.
+I mainly used the javascript for user interactions and field filling.
+When one of thme field was not field then it's border will become red and others
+become gray.
+It uses the simple principal of checking the value is filled or not.
+If filled then check next else give the alert with user interactions.
