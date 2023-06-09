@@ -1,0 +1,5 @@
+---->> Day - 25 <<----
+Today i made a Horizontal accordian.
+i manly used the html and css.
+I really enjoy building this project.
+I learn many new css properties.
