@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Amazing elements</title>
+  </head>
+  <style>
+    .coantainer {
+      margin: 20px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: blanchedalmond;
+      border: 2px solid red;
+    }
+
+    h1 {
+      background-color: azure;
+      padding: 15px;
+      border: 2px solid black;
+    }
+    .coantainer code {
+      text-align: center;
+    }
+    img {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid red;
+      background: #dfdfdf;
+    }
+    .mm {
+      background-color: azure;
+      border: 2px solid black;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    }
+    .mm1 {
+      background-color: azure;
+      border: 2px solid black;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    }
+    #file {
+      justify-content: center;
+      text-decoration: none;
+      background: black;
+      color: white;
+      padding: 9px;
+    }
+    .icon{
+        display: block;
+        font-size:100px ;
+    }
+  </style>
+
+  <body>
+    <div class="coantainer">
+      <h1>Image Geting Icons</h1>
+      <div class="mm">
+        <img src="backiee-89586.jpg" alt="" />
+        <br />
+        <br />
+        <p></p>
+        <br />
+        <input type="file" id="file" />
+      </div>
+      <div class="coantainer" style="background-color:black;color:red">
+        <pre>
+    <code style="color:pink;">
+const image = document.querySelector("img");
+const input = document.querySelector("input");
+input.addEventListener("change",()=>{
+image.src = URL.createObjectURL(input.files[0]);
+});</code></pre>
+      </div>
+    </div>
+
+    <div class="coantainer">
+      <h1>Show / Hide Password Button</h1>
+      <br />
+      <div class="mm1">
+        <input type="password" name="pass" id="pass" />
+        <br />
+        <p></p>
+        <p id="file">Click To See passwords</p>
+        <input type="checkbox" name="check" id="check" />
+      </div>
+      <div class="coantainer" style="background-color:black;color:red">
+        <pre>
+    <code style="color:pink;">
+check.onclick = togglePassword;
+function togglePassword(){
+    if(check.checked){
+        pass.type = "text";
+    } 
+    else{
+        pass.type = "password";
+    } 
+}</code></pre>
+      </div>
+      <br />
+      <br />
+    </div>
+
+    <div class="coantainer">
+      <h1>Color Picker</h1>
+       <iframe src="color-picker.html" frameborder="0" width="300px" height="295px"></iframe>
+       <div class="coantainer" style="background-color:black;color:red">
+        <pre>
+    <code style="color:pink;">
+const colorPicker = document.getElementById("color-picker");
+const icon = document.querySelector(".icon");
+colorPicker.addEventListener("input", function (e) {
+icon.style.color = `${e.target.value}`;
+});</code></pre>
+      </div>
+    </div>
+    </div>
+   
+
+<script>
+        const image = document.querySelector('img')
+        const input = document.querySelector('input')
+        input.addEventListener('change', () => {
+          image.src = URL.createObjectURL(input.files[0])
+        })
+      check.onclick = togglePassword
+      function togglePassword () {
+        if (check.checked) {
+          pass.type = 'text'
+        } else {
+          pass.type = 'password'
+        }
+      }
+      
+    </script>
+  </body>
+</html>

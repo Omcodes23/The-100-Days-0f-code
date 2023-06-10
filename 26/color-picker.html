@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <style>
+      .icon {
+  display: block;
+  font-size: 100px;
+}
+.coantainer {
+      margin: 20px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: blanchedalmond;
+      border: 2px solid red;
+    }
+    .mm {
+      background-color: azure;
+      border: 2px solid black;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    } #file {
+      justify-content: center;
+      text-decoration: none;
+      background: black;
+      color: white;
+      padding: 9px;
+    }
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="mm">
+    <label for="color-picker" id="file">Select a color:</label>
+    <p></p>
+    <input id="color-picker"  type="color" />
+    <span class="icon">&#9731</span>
+  </div>
+    <script>const colorPicker = document.getElementById("color-picker");
+      const icon = document.querySelector(".icon");
+      colorPicker.addEventListener("input", function (e) {
+        icon.style.color = `${e.target.value}`;
+      });
+      </script>
+    
+  </body>
+</html>
