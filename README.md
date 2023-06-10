@@ -18,6 +18,14 @@
 |     8.     | Registration Form 		               | [Registration Form](https://registrationform-three.vercel.app/)     						                 | [Registration Form](https://github.com/Omcodes23/The-100-Days-0f-code/tree/4196d38202699012890d19bf9bd509a426e6d50b/24) |
 |     9.     | Horizontal Accordion			               | [Horizontal Accordion](https://horizontalaccordion.vercel.app/) 							                                              | [Horizontal Accordion](https://github.com/Omcodes23/The-100-Days-0f-code/tree/4196d38202699012890d19bf9bd509a426e6d50b/25) |
 |     10.    | Amazing Elements			               | [Amazing Elements](https://amazingelements.vercel.app/) 							                                              | [Amazing Elements]() |
+|     11.    | 			               | []() 							       | []() |
+ |     12.    | 			               | []() 							       | []() |
+ |     13.    | 			               | []() 							       | []() |
+ |     14.    | 			               | []() 							       | []() |
+ |     15.    | 			               | []() 							       | []() |
+ |     16.    | 			               | []() 							       | []() |
+ |     17.    | 			               | []() 							       | []() |
+ |     18.    | 			               | []() 							       | []() |
 
 </div>
 
