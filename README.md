@@ -17,7 +17,7 @@
 |     7.     | Zoom-Image 		               | [Zoom-Image](https://zoom-image.vercel.app/)         						                                        | [Zoom-Image](https://github.com/Omcodes23/The-100-Days-0f-code/tree/1a55789a1c7e1f5875bb83c299576201ccd7bf31/23) |    
 |     8.     | Registration Form 		               | [Registration Form]()     						                 | [Registration Form](https://github.com/Omcodes23/The-100-Days-0f-code/tree/4196d38202699012890d19bf9bd509a426e6d50b/24) |
 |     9.     | Horizontal Accordion			               | [Horizontal Accordion]() 							                                              | [Horizontal Accordion](https://github.com/Omcodes23/The-100-Days-0f-code/tree/4196d38202699012890d19bf9bd509a426e6d50b/25) |
-|     10.    | 			               | []() 							                                              | []() |
+|     10.    | Amazing Elements			               | [Amazing Elements]() 							                                              | [Amazing Elements]() |
 
 </div>
 
