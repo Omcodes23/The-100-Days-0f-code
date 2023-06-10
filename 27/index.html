@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Day / Night Toggle Button</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        min-height: 100vh;
+        margin: 0;
+        transition:  0.2s ease-in-out;
+      }
+
+      body.dark {
+        background-color: black;
+      }
+
+      body.dark h1,
+      body.dark{
+        color: #fff;
+      }
+
+      .checkbox {
+        position: relative;
+        height: 10vh;
+        width: 10vw;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Day 🌞 / Night ⚪ checkbox Button <br />👇👇👇</h1>
+
+    <div>
+      <input type="checkbox" class="checkbox" id="checkbox" />
+    </div>
+
+    <script>
+      const checkbox = document.getElementById('checkbox')
+
+      checkbox.addEventListener('change', () => {
+        document.body.classList.toggle('dark')
+      })
+    </script>
+  </body>
+</html>
