@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#heading{
+    text-align: center;
+}
+
+#addBtn{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #2d3436;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#addBtn:hover{
+    cursor:pointer;
+}
+
+#main{
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 15px;
+    margin-top: 55px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.tool{
+    width: 100%;
+    background-color: #2d3436;
+    color: white;
+    padding: 5px;
+    display: flex;
+}
+
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.note textarea:focus{
+    border: 0;
+    outline: 0;
+}

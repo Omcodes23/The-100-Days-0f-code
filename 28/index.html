@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text to speech</title>
+    <style>
+        body{
+            margin: 40px;
+        }
+        .main{
+            border: 2px solid red;
+            background-color: rgba(90, 74, 74, 0.808);
+            color: white;
+            font-size: 22px;
+            padding: 50px;
+            display: grid;
+            justify-content: center;
+            text-align: center;
+        }
+        button{
+            width: auto;
+            margin: 40px;
+            padding: 12px;
+            font-size: 30px;
+            background: aqua;
+        }
+        button:hover{
+            background-color: black;
+            color: antiquewhite;
+        }
+        textarea{
+            width: 20vw;
+            border: 2px solid red;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body onload="into()">
+    <div class="main">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Enter text to listen"></textarea>
+        <br>
+        <button onclick="speak()">speak</button>
+    </div>
+    <script>
+        function speak(){
+            var text = document.querySelector('textarea').value;
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = text;
+            window.speechSynthesis.speak(msg);
+            }
+        function into(){
+            alert("full your volumn to listen the speech")
+            var intro = "Hello , i am text to ,speech ,conveter made with ,java,script by ,omcodes, please follow ,us, on twitter,github and other social media";
+            var intromsg = new SpeechSynthesisUtterance();
+            intromsg.text = intro;
+            window.speechSynthesis.speak(intromsg);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+----> Day - 29 <----
+Today i bulid a aswome project and it is amazing to bulid.
+I mainly used first time javascript for most of the functions.
+This a very knowledging for making this kind of projects.
+I am second time using the localstorage for saving data.
+Over all  this a very nice for intermediate web developer.

@@ -1,0 +1,4 @@
+----> Day - 28 <----
+Today i bulid the javascript text to speech conveter.
+I mainly used the javascript speech Synthesis function with speak.
+It is a easy one.
